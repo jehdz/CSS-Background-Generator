@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
 body{
-    font: 'Raleway', sans-serif;
+    font: 'Oswald', sans-serif;
     color: rgba(0,0,0,.5);
     text-transform: uppercase;
     text-align: center;
@@ -8,8 +11,12 @@ body{
     background: linear-gradient(to right, red, yellow);
 }
 
+.container{
+    padding: 200px 0px;
+}
+
 h1{
-    font: 600 3.5em 'Raleway', sans-serif;
+    font: 600 3.5em 'Oswald', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -19,9 +26,45 @@ h1{
 }
 
 h3{
-    font: 900 1em 'Raleway', sans-serif;
+    font: 900 1em 'Oswald', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
     letter-spacing: .01em;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    width: 32px;
+    border-radius: 100px;
+
+    height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 100px;
+
+}
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 100px;
+
+}
+
+
+button {
+    width: 150px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgba(0, 0 , 0, .55);
+    border: 1px black;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+button:hover{
+    transition: .5s;
+    background-color: black;
+    border: 1px black;
 }
